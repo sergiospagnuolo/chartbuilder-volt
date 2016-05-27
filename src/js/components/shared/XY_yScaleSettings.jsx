@@ -33,7 +33,7 @@ var XY_yScaleSettings = React.createClass({
 	_handleScaleUpdate: function(k, v) {
 		var scale = clone(this.props.scale, true);
 
-		if(k != "precision") {
+		if(k != "Precisao") {
 			scale[this.props.id].precision = 0;
 		}
 
@@ -107,14 +107,14 @@ var XY_yScaleSettings = React.createClass({
 		var title_block = (
 			<h2 className="scale-option-title">
 				<span className="step-number">{this.props.stepNumber}</span>
-				{this.props.titleOverride ? this.props.titleOverride : "Configure the " + this.props.name + " axis"}
+				{this.props.titleOverride ? this.props.titleOverride : "Configure o eixo " + this.props.name }
 			</h2>
 			);
 
 		if (this.props.stepNumber === "") {
 			title_block = (
 				<h2 className="scale-option-title">
-					{this.props.titleOverride ? this.props.titleOverride : "Configure the " + this.props.name + " axis"}
+					{this.props.titleOverride ? this.props.titleOverride : "Configure o eixo " + this.props.name }
 				</h2>
 				);
 		}
@@ -156,11 +156,11 @@ var XY_yScaleSettings = React.createClass({
 					/>
 					{tickSetting}
 					<LabelledTangle
-						label="Precision"
+						label="Precisao"
 						labelClass="editor-label"
 						tangleClass="scale-option tangle-input"
-						onChange={this._handleScaleUpdate.bind(null, "precision")}
-						onInput={this._handleScaleUpdate.bind(null, "precision")}
+						onChange={this._handleScaleUpdate.bind(null, "Precisao")}
+						onInput={this._handleScaleUpdate.bind(null, "Precisao")}
 						min={0}
 						max={5}
 						value={currScale.precision}

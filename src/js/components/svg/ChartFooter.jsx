@@ -98,7 +98,7 @@ var ChartFooter = React.createClass({
 				text={this.props.metadata.credit}
 				className="svg-text-credit"
 				onUpdate={this.props.onUpdate}
-				translate={[this.props.translate.left + 35, this.props.translate.bottom - this.props.extraHeight]}
+				translate={[this.props.translate.left + 30, this.props.translate.bottom - this.props.extraHeight]}
 				updateState={this._handleStateUpdate.bind(null, "creditWidth")}
 			/>
 		);
@@ -143,7 +143,7 @@ var ChartCreditImg = React.createClass({
 			configCreditImg.url = './assets/logo.png';
 
 		var offsetLogoLeft = configCreditImg.logowidth + configCreditImg.logooffset,
-			offsetLogoHeight = configCreditImg.logoheight + 22;
+			offsetLogoHeight = configCreditImg.logoheight + 20;
 
 		var _translate = this.props.translate;
 		var translate;

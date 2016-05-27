@@ -127,13 +127,13 @@ var ChartGrid_xScaleSettings = React.createClass({
 					className="scale-option"
 					onChange={this._handleScaleUpdate.bind(null, "prefix")}
 					value={currScale.prefix}
-					placeholder="Prefix"
+					placeholder="Prefixo"
 				/>
 				<TextInput
 					id="suffix"
 					className="scale-option"
 					onChange={this._handleScaleUpdate.bind(null, "suffix")}
-					placeholder="Suffix"
+					placeholder="suffix"
 					value={currScale.suffix}
 				/>
 				<div className="scale-tangle-inputs">

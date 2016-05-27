@@ -51,12 +51,12 @@ var error_names = {
 	},
 	"UNEVEN_TICKS": {
 		location: "axis",
-		text: "Adjust axis settings to make your y-axis ticks even",
+		text: "Ajuste as configurações de eixo para centralizar os ticks",
 		type: "warning"
 	},
 	"NO_PREFIX_SUFFIX": {
 		location: "axis",
-		text: "You are missing a prefix and suffix. Consider labelling your data",
+		text: "Falta um prefixo e um sufixo - considere dar um rótulo para seus dados",
 		type: "warning"
 	},
 	"LARGE_NUMBERS": {

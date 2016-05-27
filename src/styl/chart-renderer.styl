@@ -1,5 +1,5 @@
-$em_size = 20px
-$em_size_small = 14px
+$em_size = 18px
+$em_size_small = 12px
 $em_size_large = 30px
 
 div.renderer-wrapper
@@ -25,8 +25,11 @@ svg
     font-family $font-sans-light
     text-rendering optimizeLegibility
     box-sizing border-box
+    height 380px
+    width 100%
     .svg-background
       fill $color-bg
+      height 380px
     tspan
       height 1em
       line-height 1em
@@ -128,13 +131,20 @@ svg
       font-style italic
 
   &.svg-text-credit
-    font-size $em_size*0.6
+    font-size $em_size_small
+    padding-top 10px
     fill #666
     text-anchor start
 
   &.svg-text-source
-    font-size $em_size*0.6
-    fill #000
+    font-size $em_size_small
+    fill #666
+
+  &.svg-text-sub
+     fill $color-chart-axis-text
+     font-family $font-sans-light
+     font-size $em_size
+
     //text
       //dominant-baseline central
     &.left
@@ -183,9 +193,10 @@ svg
   .svg-text
     font-size $em_size
     &.svg-text-credit
-      font-size $em_size*0.6
+      font-size $em_size_small
+      padding-top 10px
     &.svg-text-source
-      font-size $em_size*0.6
+      font-size $em_size_small
     &.svg-text-title
       font-size $em_size_large
 
@@ -204,9 +215,10 @@ svg
   .svg-text
     font-size $em_size_small
     &.svg-text-credit
-      font-size $em_size*0.5
+      font-size $em_size_small
+      padding-top 10px
     &.svg-text-source
-      font-size $em_size*0.5
+      font-size $em_size_small
     &.svg-text-pipe
       text
         dominant-baseline central
@@ -232,9 +244,10 @@ svg
   .svg-text
     font-size $em_size
     &.svg-text-credit
-      font-size $em_size*0.6
+      font-size $em_size_small
+      padding-top 10px
     &.svg-text-source
-      font-size $em_size*0.6
+      font-size $em_size_small
     &.svg-text-title
       font-size $em_size_large
 

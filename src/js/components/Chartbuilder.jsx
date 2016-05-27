@@ -141,7 +141,7 @@ var Chartbuilder = React.createClass({
 		} else {
 			return (
 				<div>
-					<h2>Have a look at these issues:</h2>
+					<h2>Atente-se a essas questões</h2>
 					<AlertGroup
 						alerts={errorArrMessage}
 					/>

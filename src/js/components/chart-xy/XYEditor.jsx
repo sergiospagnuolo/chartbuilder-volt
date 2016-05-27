@@ -36,9 +36,9 @@ var ChartEditorMixin = require("../mixins/ChartEditorMixin.js");
 
 /* Available XY chart type options */
 var typeOptions = [
-	{ title: "Line", content: "Line", value: "line" },
-	{ title: "Columns", content: "Columns", value: "column" },
-	{ title: "Dots", content: "Dots", value: "scatterPlot" }
+	{ title: "Linhas", content: "Linhas", value: "line" },
+	{ title: "Colunas", content: "Colunas", value: "column" },
+	{ title: "Pontos", content: "Pontos", value: "scatterPlot" }
 ];
 
 /* Available XY axis options */
@@ -118,7 +118,7 @@ var XYEditor = React.createClass({
 				onUpdate={this._handlePropAndReparse.bind(null, "scale")}
 				onReset={this._handlePropAndReparse.bind(null, "scale")}
 				id="primaryScale"
-				name="Primary"
+				name="Primário"
 				stepNumber="4"
 				key="primaryScale"
 			/>
@@ -134,7 +134,7 @@ var XYEditor = React.createClass({
 					onReset={this._handlePropAndReparse.bind(null, "scale")}
 					className="scale-options"
 					id="secondaryScale"
-					name="Secondary"
+					name="Secundário"
 					stepNumber="4+"
 					key="secondaryScale"
 				/>
@@ -172,7 +172,7 @@ var XYEditor = React.createClass({
 				<div className="editor-options">
 					<h2>
 						<span className="step-number">2</span>
-						<span>Input your data</span>
+						<span>Adicione seus dados</span>
 					</h2>
 					<DataInput
 						errors={inputErrors}
@@ -183,7 +183,7 @@ var XYEditor = React.createClass({
 				<div className="editor-options">
 					<h2>
 						<span className="step-number">3</span>
-						<span>Set series options</span>
+						<span>Opções da série</span>
 					</h2>
 				<XY_resetLabels
 					annotations={chartProps._annotations}

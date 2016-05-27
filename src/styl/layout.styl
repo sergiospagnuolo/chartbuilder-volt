@@ -1,6 +1,6 @@
 $header-height = 3em
-$chart-area-width = 640px
-$chart-area-padding = 20px
+$chart-area-width = 660px
+$chart-area-padding = 40px
 
 // Page layout setup
 
@@ -112,14 +112,14 @@ canvas
 */
 
 .header
-	background-color #333
+	background-color #a7002c
 	margin-top 0
 	top 0
 	position fixed
 	height $header-height
 	width 100%
 	z-index 10000
-	padding 0.5em 0 0 0.25em
+	padding 1em
 	h1
 		color #fff
 		margin 0
@@ -136,7 +136,7 @@ canvas
 	left ($chart-area-padding / 2)
 	top $header-height
 	overflow-y scroll
-	overflow-x hidden
+	overflow-x scroll
 	height 100%
 	max-width 100%
 	position fixed
@@ -175,7 +175,7 @@ canvas
 @import 'chart-renderer.styl'
 
 .chartbuilder-editor
-	margin-left $chart-area-width + ($chart-area-padding * 2)
+	margin-left $chart-area-width + ($chart-area-padding * 1)
 	margin-bottom 30px
 	display inline-block
 	width 40%

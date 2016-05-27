@@ -120,7 +120,7 @@ var ChartGridEditor = React.createClass({
 					onUpdate={this._handlePropAndReparse.bind(null, "scale")}
 					onReset={this._handlePropAndReparse.bind(null, "scale")}
 					id="primaryScale"
-					name="Primary"
+					name="Primário"
 					stepNumber="4"
 					key="primaryScale"
 				/>
@@ -159,7 +159,7 @@ var ChartGridEditor = React.createClass({
 				<div className="editor-options">
 					<h2>
 						<span className="step-number">2</span>
-						<span>Input your data</span>
+						<span>Adicione seus dados</span>
 					</h2>
 					<DataInput
 						errors={inputErrors}
@@ -170,10 +170,10 @@ var ChartGridEditor = React.createClass({
 				<div className="editor-options">
 					<h2>
 						<span className="step-number">3</span>
-						<span>Set series options</span>
+						<span>Opções da série</span>
 					</h2>
 					<ChartGrid_universalToggle
-						text="Single color"
+						text="Cor única"
 						chartSettings={chartProps.chartSettings}
 						universalSettings={this.state.universalSettings}
 						onUpdate={this._handlePropUpdate.bind(null, "chartSettings")}
@@ -335,10 +335,10 @@ var ChartGrid_gridSettings = React.createClass({
 
 	_config: {
 		gridTypes: [
-			{ title: "Bars", content: "Bars", value: "bar" },
-			{ title: "Lines", content: "Lines", value: "line" },
-			{ title: "Dots", content: "Dots", value: "scatterPlot" },
-			{ title: "Columns", content: "Columns", value: "column" }
+			{ title: "Barras", content: "Barras", value: "bar" },
+			{ title: "Linhas", content: "Linhas", value: "line" },
+			{ title: "Pontos", content: "Pontos", value: "scatterPlot" },
+			{ title: "Colunas", content: "Colunas", value: "column" }
 		],
 	},
 
@@ -372,7 +372,7 @@ var ChartGrid_gridSettings = React.createClass({
 		return (
 			<div className="grid-options">
 				<div className="editor-option">
-					<label className="editor-label">Chart type</label>
+					<label className="editor-label">Tipo de Gráfico</label>
 					<ButtonGroup
 						onClick={this._handleGridUpdate.bind(null, "type")}
 						buttons={this._config.gridTypes}
@@ -380,7 +380,7 @@ var ChartGrid_gridSettings = React.createClass({
 					/>
 				</div>
 				<div className="editor-option">
-					<label className="editor-label">Rows</label>
+					<label className="editor-label">Linhas</label>
 					<ButtonGroup
 						onClick={this._handleGridUpdate.bind(null, "rows")}
 						buttons={this.state.rowColOptions}
@@ -388,7 +388,7 @@ var ChartGrid_gridSettings = React.createClass({
 					/>
 				</div>
 				<div className="editor-option">
-					<label className="editor-label">Columns</label>
+					<label className="editor-label">Colunas</label>
 					<ButtonGroup
 						id="cols"
 						onClick={this._handleGridUpdate.bind(null, "cols")}

@@ -69,7 +69,7 @@ var ChartGridMobile = React.createClass({
 				id="suffix"
 				className="scale-option"
 				onChange={this._handleScaleUpdate.bind(null, "suffix")}
-				placeholder="Suffix"
+				placeholder="suffix"
 				value={this.state.scale.primaryScale.suffix}
 				key="suffix"
 			/>

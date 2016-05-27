@@ -124,7 +124,7 @@ var ChartExport = React.createClass({
 			cleanFontDefs: true,
 			fontFamilyRemap: {
 				"Inconsolata": "Khula Light",
-				"Khula-Regular": "Khula",
+				"Inconsolata": "Khula",
 			}
 		}, function(uri) {
 			autoClickDownload(filename, uri);
@@ -157,7 +157,7 @@ var ChartExport = React.createClass({
 				key="png-export"
 				className="export-button"
 				onClick={this.downloadPNG}
-				text="Image"
+				text="Imagem"
 			/>
 		];
 
@@ -185,7 +185,7 @@ var ChartExport = React.createClass({
 
 		return (
 			<div className="editor-options">
-				<h2><span className="step-number">{this.props.stepNumber}</span><span>Export your chart</span></h2>
+				<h2><span className="step-number">{this.props.stepNumber}</span><span>Exporte seu gráfico</span></h2>
 					<div className="export-button-wrapper">
 						{chartExportButtons}
 					</div>

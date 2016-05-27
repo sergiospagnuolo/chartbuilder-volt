@@ -1,5 +1,5 @@
 // Component that handles global metadata, ie data that is universal regardless
-// of chart type. Eg title, source, credit, size.
+// of chart type. Eg title, sub, source, credit, size.
 
 var React = require("react");
 var PropTypes = React.PropTypes;
@@ -28,21 +28,22 @@ var chart_sizes = [
 		value: "medium"
 	},
 	{
-		title: "Long spot chart",
-		content: "Long spot chart",
+		title: "alargado",
+		content: "alargado",
 		value: "spotLong"
 	},
 	{
-		title: "Small spot chart",
-		content: "Small spot chart",
+		title: "encurtado",
+		content: "encurtado",
 		value: "spotSmall"
 	}
 ];
 
 var text_input_values = [
-	{ name: "title", content: "Title", isRequired: true },
-	{ name: "credit", content: "Credit" },
-	{ name: "source", content: "Source" }
+	{ name: "title", content: "Título", isRequired: true },
+	{ name: "sub", content: "Subtítulo" },
+	{ name: "credit", content: "Crédito" },
+	{ name: "source", content: "Fonte" }
 ];
 
 /**
@@ -63,6 +64,7 @@ var ChartMetadata = React.createClass({
 			size: PropTypes.string.isRequired,
 			source: PropTypes.string,
 			credit: PropTypes.string,
+			sub: PropTypes.string,
 			title: PropTypes.string
 		}),
 		stepNumber: PropTypes.string,
@@ -105,7 +107,7 @@ var ChartMetadata = React.createClass({
 			<div className="editor-options">
 				<h2>
 					<span className="step-number">{this.props.stepNumber}</span>
-					<span>Set title, source, credit and size</span>
+					<span>Dê um título, subtítulo, fonte e crédito para seu gráfico</span>
 				</h2>
 				{textInputs}
 				{this.props.additionalComponents}

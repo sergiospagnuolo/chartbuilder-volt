@@ -116,7 +116,7 @@ var DataInput = React.createClass({
 					onChange={this._handleReparseUpdate.bind(null, "input")}
 					className="data-input"
 					defaultValue={this.props.chartProps.input.raw}
-					placeholder="If you have a json file to load, drop that here"
+					placeholder="Se você tiver um arquivo em json, cole aqui"
 					isRequired={true}
 					isValid={isValid}
 				/>

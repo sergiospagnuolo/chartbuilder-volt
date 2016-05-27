@@ -30,7 +30,7 @@ var NumericScaleSettings = React.createClass({
 
 	_handleScaleUpdate: function(k, v) {
 		var scaleObj = clone(this.props.scale, true);
-		if(k != "precision") {
+		if(k != "Precisao") {
 			scaleObj[this.props.id].precision = 0;
 		}
 
@@ -86,14 +86,14 @@ var NumericScaleSettings = React.createClass({
 		var title_block = (
 			<h2 className="scale-option-title">
 				<span className="step-number">{this.props.stepNumber}</span>
-				{this.props.titleOverride ? this.props.titleOverride : "Configure the " + this.props.name + " axis"}
+				{this.props.titleOverride ? this.props.titleOverride : "Configure o eixo " + this.props.name }
 			</h2>
 		);
 
 		if(this.props.stepNumber === "") {
 			title_block = (
 				<h2 className="scale-option-title">
-					{this.props.titleOverride ? this.props.titleOverride : "Configure the " + this.props.name + " axis"}
+					{this.props.titleOverride ? this.props.titleOverride : "Configure o eixo " + this.props.name }
 				</h2>
 			);
 		}
@@ -112,7 +112,7 @@ var NumericScaleSettings = React.createClass({
 					className="scale-option"
 					onChange={this._handleScaleUpdate.bind(null, "suffix")}
 					value={currScale.suffix}
-					placeholder="Suffix"
+					placeholder="suffix"
 				/>
 				<div className="scale-tangle-inputs">
 					<LabelledTangle
@@ -135,11 +135,11 @@ var NumericScaleSettings = React.createClass({
 					/>
 					{tickSetting}
 					<LabelledTangle
-						label="Precision"
+						label="Precisao"
 						labelClass="editor-label"
 						tangleClass="scale-option tangle-input"
-						onChange={this._handleScaleUpdate.bind(null, "precision")}
-						onInput={this._handleScaleUpdate.bind(null, "precision")}
+						onChange={this._handleScaleUpdate.bind(null, "Precisao")}
+						onInput={this._handleScaleUpdate.bind(null, "Precisao")}
 						min={0}
 						max={5}
 						value={currScale.precision}

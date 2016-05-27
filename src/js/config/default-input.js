@@ -5,7 +5,7 @@
  * @static
  */
 var default_input = [
-	"date	Juice	Travel",
+	"date	vitórias	derrotas",
 	"2000-01-01	106.3	49.843099",
 	"2000-02-01	106.0	49.931931",
 	"2000-03-01	105.4	61.478163",

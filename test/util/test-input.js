@@ -3,13 +3,13 @@ var init_data_ordinal = [
 	"juicyness\t5.5\t23",
 	"color\t14\t10",
 	"flavor\t6.1\t13",
-	"travelability\t0\t7",
+	"derrotasability\t0\t7",
 ].join("\n");
 
 // A CSV, for testing
 var init_data_ordinal_multiple = [
 	"names,Apples,Oranges,Bananas,Kiwi,Strawberry,Mango",
-	"travelability,96,34,2,45,1,21",
+	"derrotasability,96,34,2,45,1,21",
 	"juicyness,12,65,95,26,81,41",
 	"flavor,15,28,74,86,62,9",
 	"color,51,70,26,35,7,1",
@@ -23,7 +23,7 @@ var init_data_ordinal_single = [
 	"juicyness\t5.5",
 	"color\t14",
 	"flavor\t6.1",
-	"travelability\t0"
+	"derrotasability\t0"
 ].join("\n");
 
 var init_data_time = [

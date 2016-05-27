@@ -52,7 +52,7 @@ var XYMobile = React.createClass({
 				onUpdate={this._handleScaleUpdate.bind(null, "scale")}
 				onReset={this._handleScaleReset}
 				id="primaryScale"
-				name="Primary"
+				name="Primário"
 				key="primaryScale"
 				titleOverride="Mobile-specific primary axis settings"
 				stepNumber = ""
@@ -68,7 +68,7 @@ var XYMobile = React.createClass({
 					className="scale-options"
 					onReset={this._handleScaleReset}
 					id="secondaryScale"
-					name="Secondary"
+					name="Secundário"
 					key="secondaryScale"
 					titleOverride="Mobile-specific secondary axis settings"
 					stepNumber = ""
@@ -86,7 +86,7 @@ var XYMobile = React.createClass({
 					value={chartProps.mobile.title}
 					className="mobile-option"
 					onChange={this._handleUpdate.bind(null, "title")}
-					placeholder={"Title"}
+					placeholder={"Título"}
 				/>
 				{scaleSettings}
 			</div>

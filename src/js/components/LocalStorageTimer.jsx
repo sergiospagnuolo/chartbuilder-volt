@@ -52,7 +52,7 @@ var LocalStorageTimer = React.createClass({
 			<Button
 				onClick={this._handleLoadChart}
 				className={className}
-				text={"Load previous chart"}
+				text={"Carregar gráfico anterior"}
 			/>
 		);
 	}
