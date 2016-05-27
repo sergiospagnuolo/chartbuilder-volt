@@ -1,6 +1,5 @@
 node_modules/**
 .publish
-build
 !node_modules/stylus-normalize
 .DS_Store
 .tmp
