@@ -1,478 +1,306 @@
 [data-color-index="0"] path {
-  stroke: #a50026;
+  stroke: #000;
 }
 [data-color-index="0"] rect {
-  fill: #a50026;
+  fill: #000;
 }
 [data-color-index="0"] circle {
-  stroke: #a50026;
+  stroke: #000;
   stroke-width: 2px;
-  fill: #a50026;
+  fill: #000;
 }
 .color-index-0 {
-  fill: #a50026;
+  fill: #000;
 }
 rect[data-color-index="0"] {
-  fill: #a50026;
+  fill: #000;
 }
 text[data-color-index="0"] {
-  fill: #a50026;
+  fill: #000;
 }
 .d4 .axis .tick text[data-color-index="0"] {
-  fill: #a50026;
+  fill: #000;
 }
 .cb-colorpicker-color-0 {
-  background-color: #a50026;
+  background-color: #000;
 }
 .series-label-0 {
-  color: #a50026;
+  color: #000;
 }
 .series-label-input-0 {
-  border-bottom: 2px solid #a50026;
+  border-bottom: 2px solid #000;
 }
 .series-label-input-0:hover,
 .series-label-input-0:focus {
   border: none;
-  border-bottom: 2px solid #a50026;
+  border-bottom: 2px solid #000;
 }
 .series-label-input-0 input {
-  color: #a50026;
+  color: #000;
 }
 .cb-toggle.toggled.toggle-0 .cb-toggle-container {
-  background-color: #a50026;
+  background-color: #000;
 }
 [data-color-index="1"] path {
-  stroke: #fdae61;
+  stroke: #faa61a;
 }
 [data-color-index="1"] rect {
-  fill: #fdae61;
+  fill: #faa61a;
 }
 [data-color-index="1"] circle {
-  stroke: #fdae61;
+  stroke: #faa61a;
   stroke-width: 2px;
-  fill: #fdae61;
+  fill: #faa61a;
 }
 .color-index-1 {
-  fill: #fdae61;
+  fill: #faa61a;
 }
 rect[data-color-index="1"] {
-  fill: #fdae61;
+  fill: #faa61a;
 }
 text[data-color-index="1"] {
-  fill: #fdae61;
+  fill: #faa61a;
 }
 .d4 .axis .tick text[data-color-index="1"] {
-  fill: #fdae61;
+  fill: #faa61a;
 }
 .cb-colorpicker-color-1 {
-  background-color: #fdae61;
+  background-color: #faa61a;
 }
 .series-label-1 {
-  color: #fdae61;
+  color: #faa61a;
 }
 .series-label-input-1 {
-  border-bottom: 2px solid #fdae61;
+  border-bottom: 2px solid #faa61a;
 }
 .series-label-input-1:hover,
 .series-label-input-1:focus {
   border: none;
-  border-bottom: 2px solid #fdae61;
+  border-bottom: 2px solid #faa61a;
 }
 .series-label-input-1 input {
-  color: #fdae61;
+  color: #faa61a;
 }
 .cb-toggle.toggled.toggle-1 .cb-toggle-container {
-  background-color: #fdae61;
+  background-color: #faa61a;
 }
 [data-color-index="2"] path {
-  stroke: #d73027;
+  stroke: #a7002c;
 }
 [data-color-index="2"] rect {
-  fill: #d73027;
+  fill: #a7002c;
 }
 [data-color-index="2"] circle {
-  stroke: #d73027;
+  stroke: #a7002c;
   stroke-width: 2px;
-  fill: #d73027;
+  fill: #a7002c;
 }
 .color-index-2 {
-  fill: #d73027;
+  fill: #a7002c;
 }
 rect[data-color-index="2"] {
-  fill: #d73027;
+  fill: #a7002c;
 }
 text[data-color-index="2"] {
-  fill: #d73027;
+  fill: #a7002c;
 }
 .d4 .axis .tick text[data-color-index="2"] {
-  fill: #d73027;
+  fill: #a7002c;
 }
 .cb-colorpicker-color-2 {
-  background-color: #d73027;
+  background-color: #a7002c;
 }
 .series-label-2 {
-  color: #d73027;
+  color: #a7002c;
 }
 .series-label-input-2 {
-  border-bottom: 2px solid #d73027;
+  border-bottom: 2px solid #a7002c;
 }
 .series-label-input-2:hover,
 .series-label-input-2:focus {
   border: none;
-  border-bottom: 2px solid #d73027;
+  border-bottom: 2px solid #a7002c;
 }
 .series-label-input-2 input {
-  color: #d73027;
+  color: #a7002c;
 }
 .cb-toggle.toggled.toggle-2 .cb-toggle-container {
-  background-color: #d73027;
+  background-color: #a7002c;
 }
 [data-color-index="3"] path {
-  stroke: #abd9e9;
+  stroke: #cbcbcb;
 }
 [data-color-index="3"] rect {
-  fill: #abd9e9;
+  fill: #cbcbcb;
 }
 [data-color-index="3"] circle {
-  stroke: #abd9e9;
+  stroke: #cbcbcb;
   stroke-width: 2px;
-  fill: #abd9e9;
+  fill: #cbcbcb;
 }
 .color-index-3 {
-  fill: #abd9e9;
+  fill: #cbcbcb;
 }
 rect[data-color-index="3"] {
-  fill: #abd9e9;
+  fill: #cbcbcb;
 }
 text[data-color-index="3"] {
-  fill: #abd9e9;
+  fill: #cbcbcb;
 }
 .d4 .axis .tick text[data-color-index="3"] {
-  fill: #abd9e9;
+  fill: #cbcbcb;
 }
 .cb-colorpicker-color-3 {
-  background-color: #abd9e9;
+  background-color: #cbcbcb;
 }
 .series-label-3 {
-  color: #abd9e9;
+  color: #cbcbcb;
 }
 .series-label-input-3 {
-  border-bottom: 2px solid #abd9e9;
+  border-bottom: 2px solid #cbcbcb;
 }
 .series-label-input-3:hover,
 .series-label-input-3:focus {
   border: none;
-  border-bottom: 2px solid #abd9e9;
+  border-bottom: 2px solid #cbcbcb;
 }
 .series-label-input-3 input {
-  color: #abd9e9;
+  color: #cbcbcb;
 }
 .cb-toggle.toggled.toggle-3 .cb-toggle-container {
-  background-color: #abd9e9;
+  background-color: #cbcbcb;
 }
 [data-color-index="4"] path {
-  stroke: #f46d43;
+  stroke: #999;
 }
 [data-color-index="4"] rect {
-  fill: #f46d43;
+  fill: #999;
 }
 [data-color-index="4"] circle {
-  stroke: #f46d43;
+  stroke: #999;
   stroke-width: 2px;
-  fill: #f46d43;
+  fill: #999;
 }
 .color-index-4 {
-  fill: #f46d43;
+  fill: #999;
 }
 rect[data-color-index="4"] {
-  fill: #f46d43;
+  fill: #999;
 }
 text[data-color-index="4"] {
-  fill: #f46d43;
+  fill: #999;
 }
 .d4 .axis .tick text[data-color-index="4"] {
-  fill: #f46d43;
+  fill: #999;
 }
 .cb-colorpicker-color-4 {
-  background-color: #f46d43;
+  background-color: #999;
 }
 .series-label-4 {
-  color: #f46d43;
+  color: #999;
 }
 .series-label-input-4 {
-  border-bottom: 2px solid #f46d43;
+  border-bottom: 2px solid #999;
 }
 .series-label-input-4:hover,
 .series-label-input-4:focus {
   border: none;
-  border-bottom: 2px solid #f46d43;
+  border-bottom: 2px solid #999;
 }
 .series-label-input-4 input {
-  color: #f46d43;
+  color: #999;
 }
 .cb-toggle.toggled.toggle-4 .cb-toggle-container {
-  background-color: #f46d43;
+  background-color: #999;
 }
 [data-color-index="5"] path {
-  stroke: #74add1;
+  stroke: #666;
 }
 [data-color-index="5"] rect {
-  fill: #74add1;
+  fill: #666;
 }
 [data-color-index="5"] circle {
-  stroke: #74add1;
+  stroke: #666;
   stroke-width: 2px;
-  fill: #74add1;
+  fill: #666;
 }
 .color-index-5 {
-  fill: #74add1;
+  fill: #666;
 }
 rect[data-color-index="5"] {
-  fill: #74add1;
+  fill: #666;
 }
 text[data-color-index="5"] {
-  fill: #74add1;
+  fill: #666;
 }
 .d4 .axis .tick text[data-color-index="5"] {
-  fill: #74add1;
+  fill: #666;
 }
 .cb-colorpicker-color-5 {
-  background-color: #74add1;
+  background-color: #666;
 }
 .series-label-5 {
-  color: #74add1;
+  color: #666;
 }
 .series-label-input-5 {
-  border-bottom: 2px solid #74add1;
+  border-bottom: 2px solid #666;
 }
 .series-label-input-5:hover,
 .series-label-input-5:focus {
   border: none;
-  border-bottom: 2px solid #74add1;
+  border-bottom: 2px solid #666;
 }
 .series-label-input-5 input {
-  color: #74add1;
+  color: #666;
 }
 .cb-toggle.toggled.toggle-5 .cb-toggle-container {
-  background-color: #74add1;
+  background-color: #666;
 }
 [data-color-index="6"] path {
-  stroke: #4575b4;
+  stroke: #ccc;
 }
 [data-color-index="6"] rect {
-  fill: #4575b4;
+  fill: #ccc;
 }
 [data-color-index="6"] circle {
-  stroke: #4575b4;
+  stroke: #ccc;
   stroke-width: 2px;
-  fill: #4575b4;
+  fill: #ccc;
 }
 .color-index-6 {
-  fill: #4575b4;
+  fill: #ccc;
 }
 rect[data-color-index="6"] {
-  fill: #4575b4;
+  fill: #ccc;
 }
 text[data-color-index="6"] {
-  fill: #4575b4;
+  fill: #ccc;
 }
 .d4 .axis .tick text[data-color-index="6"] {
-  fill: #4575b4;
+  fill: #ccc;
 }
 .cb-colorpicker-color-6 {
-  background-color: #4575b4;
+  background-color: #ccc;
 }
 .series-label-6 {
-  color: #4575b4;
+  color: #ccc;
 }
 .series-label-input-6 {
-  border-bottom: 2px solid #4575b4;
+  border-bottom: 2px solid #ccc;
 }
 .series-label-input-6:hover,
 .series-label-input-6:focus {
   border: none;
-  border-bottom: 2px solid #4575b4;
+  border-bottom: 2px solid #ccc;
 }
 .series-label-input-6 input {
-  color: #4575b4;
+  color: #ccc;
 }
 .cb-toggle.toggled.toggle-6 .cb-toggle-container {
-  background-color: #4575b4;
-}
-[data-color-index="7"] path {
-  stroke: #313695;
-}
-[data-color-index="7"] rect {
-  fill: #313695;
-}
-[data-color-index="7"] circle {
-  stroke: #313695;
-  stroke-width: 2px;
-  fill: #313695;
-}
-.color-index-7 {
-  fill: #313695;
-}
-rect[data-color-index="7"] {
-  fill: #313695;
-}
-text[data-color-index="7"] {
-  fill: #313695;
-}
-.d4 .axis .tick text[data-color-index="7"] {
-  fill: #313695;
-}
-.cb-colorpicker-color-7 {
-  background-color: #313695;
-}
-.series-label-7 {
-  color: #313695;
-}
-.series-label-input-7 {
-  border-bottom: 2px solid #313695;
-}
-.series-label-input-7:hover,
-.series-label-input-7:focus {
-  border: none;
-  border-bottom: 2px solid #313695;
-}
-.series-label-input-7 input {
-  color: #313695;
-}
-.cb-toggle.toggled.toggle-7 .cb-toggle-container {
-  background-color: #313695;
-}
-[data-color-index="8"] path {
-  stroke: #999;
-}
-[data-color-index="8"] rect {
-  fill: #999;
-}
-[data-color-index="8"] circle {
-  stroke: #999;
-  stroke-width: 2px;
-  fill: #999;
-}
-.color-index-8 {
-  fill: #999;
-}
-rect[data-color-index="8"] {
-  fill: #999;
-}
-text[data-color-index="8"] {
-  fill: #999;
-}
-.d4 .axis .tick text[data-color-index="8"] {
-  fill: #999;
-}
-.cb-colorpicker-color-8 {
-  background-color: #999;
-}
-.series-label-8 {
-  color: #999;
-}
-.series-label-input-8 {
-  border-bottom: 2px solid #999;
-}
-.series-label-input-8:hover,
-.series-label-input-8:focus {
-  border: none;
-  border-bottom: 2px solid #999;
-}
-.series-label-input-8 input {
-  color: #999;
-}
-.cb-toggle.toggled.toggle-8 .cb-toggle-container {
-  background-color: #999;
-}
-[data-color-index="9"] path {
-  stroke: #666;
-}
-[data-color-index="9"] rect {
-  fill: #666;
-}
-[data-color-index="9"] circle {
-  stroke: #666;
-  stroke-width: 2px;
-  fill: #666;
-}
-.color-index-9 {
-  fill: #666;
-}
-rect[data-color-index="9"] {
-  fill: #666;
-}
-text[data-color-index="9"] {
-  fill: #666;
-}
-.d4 .axis .tick text[data-color-index="9"] {
-  fill: #666;
-}
-.cb-colorpicker-color-9 {
-  background-color: #666;
-}
-.series-label-9 {
-  color: #666;
-}
-.series-label-input-9 {
-  border-bottom: 2px solid #666;
-}
-.series-label-input-9:hover,
-.series-label-input-9:focus {
-  border: none;
-  border-bottom: 2px solid #666;
-}
-.series-label-input-9 input {
-  color: #666;
-}
-.cb-toggle.toggled.toggle-9 .cb-toggle-container {
-  background-color: #666;
-}
-[data-color-index="10"] path {
-  stroke: #ccc;
-}
-[data-color-index="10"] rect {
-  fill: #ccc;
-}
-[data-color-index="10"] circle {
-  stroke: #ccc;
-  stroke-width: 2px;
-  fill: #ccc;
-}
-.color-index-10 {
-  fill: #ccc;
-}
-rect[data-color-index="10"] {
-  fill: #ccc;
-}
-text[data-color-index="10"] {
-  fill: #ccc;
-}
-.d4 .axis .tick text[data-color-index="10"] {
-  fill: #ccc;
-}
-.cb-colorpicker-color-10 {
-  background-color: #ccc;
-}
-.series-label-10 {
-  color: #ccc;
-}
-.series-label-input-10 {
-  border-bottom: 2px solid #ccc;
-}
-.series-label-input-10:hover,
-.series-label-input-10:focus {
-  border: none;
-  border-bottom: 2px solid #ccc;
-}
-.series-label-input-10 input {
-  color: #ccc;
-}
-.cb-toggle.toggled.toggle-10 .cb-toggle-container {
   background-color: #ccc;
 }
 span.step-number {
-  background-color: #333;
+  background-color: #a7002c;
   border-radius: 100px;
   color: #fff;
   width: 1.5em;
@@ -798,7 +626,7 @@ span.step-number {
   margin-bottom: 2em;
 }
 .mobile-overrides> h2:first-child {
-  font-family: "Khula-Bold", Arial, sans-serif;
+  font-family: "Inconsolata", Arial, sans-serif;
   margin-bottom: 1em;
 }
 .mobile-overrides .scale-options {
@@ -829,16 +657,19 @@ svg.renderer-svg {
   font-family: 'Inconsolata', Arial, Helvetica, sans-serif;
   text-rendering: optimizeLegibility;
   box-sizing: border-box;
+  height: 380px;
+  width: 100%;
 }
 svg.renderer-svg .svg-background {
   fill: #fff;
+  height: 380px;
 }
 svg.renderer-svg tspan {
   height: 1em;
   line-height: 1em;
 }
 .d4 {
-  font-size: 20px;
+  font-size: 18px;
 }
 .d4 .leftAxis path.domain {
   display: none;
@@ -926,38 +757,46 @@ svg.renderer-svg tspan {
 }
 .svg-text {
   font-family: 'Inconsolata', Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 18px;
 }
 .svg-text tspan.em {
   font-style: italic;
 }
 .svg-text tspan.strong {
-  font-family: "Khula-Bold", Arial, sans-serif;
+  font-family: "Inconsolata", Arial, sans-serif;
 }
 .svg-text tspan.strong .em,
 .svg-text tspan.em .strong {
-  font-family: "Khula-Bold", Arial, sans-serif;
+  font-family: "Inconsolata", Arial, sans-serif;
   font-style: italic;
 }
 .svg-text.svg-text-credit {
   font-size: 12px;
-  fill: #ccc;
+  padding-top: 10px;
+  fill: #666;
   text-anchor: start;
 }
 .svg-text.svg-text-source {
   font-size: 12px;
-  fill: #ccc;
+  fill: #666;
 }
-.svg-text.svg-text-source.left {
+.svg-text.svg-text-sub {
+  fill: #666;
+  font-family: 'Inconsolata', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+.svg-text.left {
   text-anchor: start;
 }
-.svg-text.svg-text-source.right {
+.svg-text.right {
   text-anchor: end;
 }
 .svg-text.svg-text-title {
-  fill: #666;
+  fill: #000;
+  font-weight: bold;
   font-family: 'Inconsolata', Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 30px;
+  text-transform: uppercase;
 }
 .svg-source-pipe {
   stroke: #ccc;
@@ -965,7 +804,7 @@ svg.renderer-svg tspan {
   stroke-width: 0.8px;
 }
 .svg-label-text {
-  font-size: 20px;
+  font-size: 18px;
   font-family: 'Inconsolata', Arial, Helvetica, sans-serif;
 }
 .svg-label-text.draggable {
@@ -980,80 +819,83 @@ svg.renderer-svg tspan {
   visibility: hidden;
 }
 .medium .em-size {
-  font-size: 20px;
+  font-size: 18px;
 }
 .medium .d4 {
-  font-size: 20px;
+  font-size: 18px;
 }
 .medium .d4 .margins .line path,
 .medium .d4 .margins .other-line path {
   stroke-width: 3px;
 }
 .medium .svg-text {
-  font-size: 20px;
+  font-size: 18px;
 }
 .medium .svg-text.svg-text-credit {
   font-size: 12px;
+  padding-top: 10px;
 }
 .medium .svg-text.svg-text-source {
   font-size: 12px;
 }
 .medium .svg-text.svg-text-title {
-  font-size: 20px;
+  font-size: 30px;
 }
 .small .em-size {
-  font-size: 14px;
+  font-size: 12px;
 }
 .small .d4 {
-  font-size: 14px;
+  font-size: 12px;
 }
 .small .d4 .margins .line path,
 .small .d4 .margins .other-line path {
   stroke-width: 2px;
 }
 .small .svg-text {
-  font-size: 14px;
+  font-size: 12px;
 }
 .small .svg-text.svg-text-credit {
-  font-size: 10px;
+  font-size: 12px;
+  padding-top: 10px;
 }
 .small .svg-text.svg-text-source {
-  font-size: 10px;
+  font-size: 12px;
 }
 .small .svg-text.svg-text-pipe text {
   dominant-baseline: central;
-  font-size: 12px;
+  font-size: 10.799999999999999px;
 }
 .small .svg-text.svg-text-title {
-  font-size: 14px;
+  font-size: 30px;
 }
 .small .svg-label-text {
-  font-size: 14px;
+  font-size: 12px;
 }
 .large .em-size {
-  font-size: 20px;
+  font-size: 18px;
 }
 .large .d4 {
-  font-size: 20px;
+  font-size: 18px;
 }
 .large .d4 .margins .line path,
 .large .d4 .margins .other-line path {
   stroke-width: 4px;
 }
 .large .svg-text {
-  font-size: 20px;
+  font-size: 18px;
 }
 .large .svg-text.svg-text-credit {
   font-size: 12px;
+  padding-top: 10px;
 }
 .large .svg-text.svg-text-source {
   font-size: 12px;
 }
 .large .svg-text.svg-text-title {
-  font-size: 20px;
+  font-size: 30px;
 }
 .large .svg-label-text {
-  font-size: 20px;
+  font-size: 18px;
 }
 .cb-credit-logo {
   fill: #ccc;
